@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/tickets_shop"
+        android:title="@string/tickets_shop"
+        android:orderInCategory="3"
+        android:icon="@drawable/ticket"
+        app:showAsAction="ifRoom"
+        app:iconTint="@color/colorAccent" />
+    <item android:id="@+id/blessing"
+        android:title="@string/Blessing"
+        android:orderInCategory="2"
+        android:icon="@drawable/blessing"
+        app:showAsAction="ifRoom"
+        app:iconTint="@color/colorAccent" />
+    <item android:id="@+id/paint"
+        android:title="@string/swap_theme"
+        android:orderInCategory="1"
+        android:icon="@drawable/paint"
+        app:showAsAction="ifRoom"
+        app:iconTint="@color/colorAccent" />
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dev.dailypush">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".app.base.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/BaseTheme">
+        <activity android:name=".app.presentation.noiternet.NoInternetActivity" />
+        <activity
+            android:name=".app.presentation.addition.WordAdditionActivity"
+            android:parentActivityName=".app.presentation.main.MainActivity" />
+        <activity
+            android:name=".app.presentation.blessing.BlessingActivity"
+            android:parentActivityName=".app.presentation.main.MainActivity" />
+        <activity
+            android:name=".app.presentation.shop.TicketsShopActivity"
+            android:parentActivityName=".app.presentation.main.MainActivity" />
+        <activity
+            android:name=".app.presentation.analytics.AnalyticsActivity"
+            android:parentActivityName=".app.presentation.main.MainActivity" />
+        <activity
+            android:name=".app.presentation.contest.ContestActivity"
+            android:parentActivityName=".app.presentation.main.MainActivity" />
+        <activity android:name=".app.presentation.main.MainActivity" />
+        <activity android:name=".app.presentation.split.SplitActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6875098488739325~5513438176" />
+    </application>
+
+</manifest>

@@ -1,0 +1,130 @@
+<resources>
+
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:homeAsUpIndicator">@drawable/baseline_home_white_18dp</item>
+    </style>
+
+    <style name="ForestTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary2</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark2</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/windowBackground2</item>
+        <item name="android:homeAsUpIndicator">@drawable/baseline_home_white_18dp</item>
+    </style>
+
+    <style name="LollipopTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary3</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark3</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/windowBackground3</item>
+        <item name="android:homeAsUpIndicator">@drawable/baseline_home_white_18dp</item>
+    </style>
+
+    <style name="ComicTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary4</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark4</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/windowBackground4</item>
+        <item name="android:homeAsUpIndicator">@drawable/baseline_home_white_18dp</item>
+    </style>
+
+    <style name="Toolbar" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorControlNormal">?attr/colorAccent</item>
+        <item name="titleTextColor">?attr/colorAccent</item>
+    </style>
+
+    <style name="BaseText">
+        <item name="android:shadowColor">?attr/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="ToolbarText" parent="BaseText">
+        <item name="android:textSize">32sp</item>
+        <item name="android:shadowColor">?attr/colorAccent</item>
+        <item name="android:textColor">?attr/colorAccent</item>
+    </style>
+
+    <style name="PreviewText" parent="BaseText">
+        <item name="android:textSize">36sp</item>
+        <item name="android:shadowColor">?attr/colorAccent</item>
+        <item name="android:textColor">?attr/colorAccent</item>
+    </style>
+
+    <style name="DescriptionText" parent="BaseText">
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="ScoreText" parent="BaseText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">?attr/colorAccent</item>
+        <item name="android:textColor">?attr/colorAccent</item>
+    </style>
+
+    <style name="TranslatableText" parent="BaseText">
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ContestText" parent="BaseText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">?attr/colorAccent</item>
+        <item name="android:textColor">?attr/colorAccent</item>
+    </style>
+
+    <style name="AnalyticsText" parent="BaseText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">?attr/colorAccent</item>
+        <item name="android:textColor">?attr/colorAccent</item>
+    </style>
+
+    <style name="HintText" parent="BaseText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:shadowColor">?attr/colorPrimary</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="BlessingDescriptionText" parent="BaseText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:shadowColor">?attr/colorAccent</item>
+        <item name="android:textColor">?attr/colorAccent</item>
+    </style>
+
+    <style name="BlessingTitleText" parent="BlessingDescriptionText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BlessingInfoText" parent="BlessingDescriptionText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">?attr/colorAccent</item>
+        <item name="android:textColor">?attr/colorAccent</item>
+    </style>
+
+    <style name="Button" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:elevation">6dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:translationZ">4dp</item>
+        <item name="android:background">@drawable/button_shape</item>
+        <item name="android:textColor">?attr/colorAccent</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:shadowColor">?attr/colorAccent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+</resources>
